@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.buttons .red {
+    background-color: #d40000;
+    color: #fff;
+}
+
+.buttons .yellow {
+    background-color: #e4e416;
+    color: #000;
+}
+
+.buttons .green {
+    background-color: #008000;
+    color: #fff;
+}
+
+.buttons .automatic {
+    background-color: #646464;
+    color: #fff;
+}
